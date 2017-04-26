@@ -1,0 +1,50 @@
+.headline {
+	font-family: HelveticaNeue-Thin, 'Helvetica Neue Thin', HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+[class*="span"].centred {
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
+.phone {
+	background: url(http://www.jolt.rocks/wp-content/uploads/2016/12/alarm-times.png) no-repeat center;
+}
+.video{
+	/*object-position: 10px;*/
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+/**
+	Hide on mobile 
+**/
+@media screen and (max-width: 768px) {
+	.phone {
+		display: none;
+	}
+}
+/* ALign images left or right on desktop */
+@media screen and (min-width: 768px) {
+	.download-button {
+		margin: 5px;
+	}
+	.download {
+		float: left;
+	}
+	.phone {
+		float: right;
+		margin: 20px;
+	}
+}
