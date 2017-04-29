@@ -19,7 +19,7 @@ layout: default
 			<!-- Download Link -->
 			<div class='col-sm-6 download text-center'>
 				<div class='download'>
-					<h1 class="headline" class='download' style='margin-top: 25%;'>Download now.</h1>
+					<h1 class="headline" class='text-center' style='margin-top: 25%;'>Download now.</h1>
 					<div class='row nopadding'>
 						<div class='col-md-12 col-sm-12'>
 							<a href="https://itunes.apple.com/us/app/jolt-alarm-clock/id1204619311?ls=1&mt=8" class='download-button'>
@@ -30,7 +30,9 @@ layout: default
 							</a>
 						</div>
 					</div>
+					Want to be featured?<a href='http://submit.jolt.rocks/'> submit a song</a>
 				</div>
+
 			</div>
 			<!-- /Download Links -->
 		</div>
